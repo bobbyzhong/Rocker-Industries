@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        />
+        <script
+            src="https://kit.fontawesome.com/f868733ea1.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="contact.css" />
+        <title>Applications</title>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div>
+                    <a href="home.html" class="logotext"
+                        ><img src="images/logo3.png" alt=""
+                    /></a>
+                </div>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="solutions.html">SOLUTIONS</a></li>
+                        <li><a href="applications.html">APPLICATIONS</a></li>
+                        <li><a href="quality.html">QUALITY</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li>
+                            <a
+                                href="http://supplierportal.rockerindustries.com/"
+                                >SUPPLIER PORTAL</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div></div>
+            <div class="top container text-start">
+                <h1 class="title">Contact Us</h1>
+            </div>
+        </section>
+
+        <div class="container contact-text">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="title">Rocker Industries</h1>
+                    <p class="sub-title">
+                        5492 Bolsa Avenue, Hungtington Beach, CA 92649
+                    </p>
+
+                    <h1 class="title">Phone</h1>
+                    <p class="sub-title">714-908-0777</p>
+
+                    <h1 class="title">
+                        Email
+                        <a
+                            class="email"
+                            href="mailto: contact@rockerindustries.com"
+                            ><i class="email-button fa-solid fa-envelope"></i
+                        ></a>
+                    </h1>
+                    <p class="sub-title">contact@rockerindustries.com</p>
+                </div>
+                <div class="col-lg-6">
+                    <a href="https://goo.gl/maps/BawLzwQYrgWYw1Q8A">
+                        <img
+                            class="map img-fluid"
+                            src="images/map.png"
+                            alt=""
+                        />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer-basic">
+            <footer>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a
+                            href="http://www.rockerindustries.com/Downloads/TCs_Rev_1_UPDATED_1.17.pdf"
+                            >Terms and Conditions</a
+                        >
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">Quality</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">Supplier Portal</a>
+                    </li>
+                </ul>
+                <p class="copyright">Rocker Industries © 2022</p>
+            </footer>
+        </div>
+
+        <!-- Script for JS -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rocker Industries</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        />
+        <link rel="stylesheet" href="home.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Finlandica&family=Open+Sans&family=Poppins:wght@100;200;400;600;700&family=Roboto:ital@1&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+            integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://kit.fontawesome.com/f868733ea1.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <div>
+                    <a href="home.html" class="logotext"
+                        ><img src="images/logo3.png" alt=""
+                    /></a>
+                </div>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="solutions.html">SOLUTIONS</a></li>
+                        <li><a href="applications.html">APPLICATIONS</a></li>
+                        <li><a href="quality.html">QUALITY</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li>
+                            <a
+                                href="http://supplierportal.rockerindustries.com/"
+                                >SUPPLIER PORTAL</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="main-text">
+                <h1>
+                    Engineering Excellence | Responsive Design | Precision
+                    Execution
+                </h1>
+                <p>
+                    The leading designer and manufacturer of solenoids and
+                    solenoid valves for defense, aerospace and commercial
+                    applications.
+                </p>
+                <a href="about.html" class="learn-btn">Learn About Us</a>
+            </div>
+        </section>
+
+        <!-- -----course----- -->
+
+        <section class="course">
+            <h1>The Rocker Advantage</h1>
+            <p>Dual Solutions, Detailed Analysis & Rapid Prototyping</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h2>Dual Solutions</h2>
+                    <p>
+                        Rocker Industries can take customer's new solenoid and
+                        solenoid valve requirements, including source control
+                        drawings, and deliver full custom design, analysis,
+                        prototyping, and final production. We can also take
+                        customer’s existing detail design drawings, processes
+                        and specifications, and deliver precise production.This
+                        dual solutions approach delivers a full range of
+                        solenoids and integrated electro-mechanical solenoid
+                        valves.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h2>Engineering Excellence</h2>
+                    <p>
+                        Rocker’s experienced engineers employ state-of-the-art
+                        SolidWorks CAD, and FEA with 2D and 3D static and
+                        dynamic solvers. Detailed engineering analysis and
+                        reports are available for custom specification projects
+                        in order to provide added support during you design
+                        reviews including Magnetic FEA, Vibration Analysis, Heat
+                        Transfer and Fluid Analysis, Concept Design from
+                        customer specification and more.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h2>Traditions & Quality Assurance</h2>
+                    <p>
+                        Since 1954, Rocker Industries has been designing and
+                        manufacturing the highest quality solenoids and solenoid
+                        valves for the aerospace, defense and commercial
+                        industries, at a competitive price. Our Quality
+                        Assurance System meets out industries' highest
+                        standards. We are certified by Det Norske Vertias (DNV)
+                        to AS9100 and ISO9001
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slideshow -->
+
+        <div
+            id="carouselExampleControls"
+            class="carousel slide mx-auto"
+            data-bs-ride="carousel"
+        >
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/f35.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        id="images/b2"
+                        src="b2.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="https://www.army-technology.com/wp-content/uploads/sites/3/2022/02/Boeing-15.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/d/dc/UH-60_2nd_Squadron%2C_2nd_Cavalry_Regiment_%28cropped%29.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/1/16/B-52_Stratofortress_assigned_to_the_307th_Bomb_Wing_%28cropped%29.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="https://aerospace.honeywell.com/content/dam/aerobt/en/images/learn/platforms/citation/horizontal/AeroBT-aero-bk-cessna-Citation_jet_2880x1440.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+            >
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+            >
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="footer-basic">
+            <footer>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a
+                            href="http://www.rockerindustries.com/Downloads/TCs_Rev_1_UPDATED_1.17.pdf"
+                            >Terms and Conditions</a
+                        >
+                    </li>
+                    <li class="list-inline-item"><a href="#">Quality</a></li>
+                    <li class="list-inline-item"><a href="#">Contact</a></li>
+                    <li class="list-inline-item">
+                        <a href="#">Supplier Portal</a>
+                    </li>
+                </ul>
+                <p class="copyright">Rocker Industries © 2022</p>
+            </footer>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+            crossorigin="anonymous"
+        ></script>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+        <!-- ------------JavaScript for Toggle Menu------------ -->
+    </body>
+</html>

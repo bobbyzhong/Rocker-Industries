@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap"
+            rel="stylesheet"
+        />
+
+        <script
+            src="https://kit.fontawesome.com/f868733ea1.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="about.css" />
+        <title>About</title>
+    </head>
+    <body>
+        <section class="front">
+            <section class="header">
+                <nav>
+                    <div>
+                        <a href="home.html" class="logotext"
+                            ><img src="images/logo3.png" alt=""
+                        /></a>
+                    </div>
+
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                        <ul>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="solutions.html">SOLUTIONS</a></li>
+                            <li>
+                                <a href="applications.html">APPLICATIONS</a>
+                            </li>
+                            <li><a href="quality.html">QUALITY</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                            <li>
+                                <a
+                                    href="http://supplierportal.rockerindustries.com/"
+                                    >SUPPLIER PORTAL</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+                </nav>
+
+                <h1 id="title">About Rocker</h1>
+            </section>
+
+            <div class="aboutSection">
+                <div id="one" class="boxLeft">
+                    <div class="aboutText">
+                        <p class="aboutTitle">
+                            Highest Quality Solenoids & Solenoid Valves
+                        </p>
+                        <p>
+                            Rocker Industries deliveres the lightest, fastest,
+                            least-power consuming solenoids & solenoid valves
+                            for defense, aerospace, and commerical applications.
+                            Each solenoid & solenoid valve Rocker produces is
+                            backed by over 100 years of experience.
+                        </p>
+                    </div>
+                </div>
+                <div id="two" class="boxRight">
+                    <img src="images/f35.jpeg" alt="" />
+                </div>
+
+                <div id="three" class="boxLeft">
+                    <img src="images/prototype1.jpg" alt="" />
+                </div>
+                <div id="four" class="boxRight">
+                    <div class="aboutText">
+                        <p class="aboutTitle">Rapid Prototyping</p>
+                        <p>
+                            Our lean design and manufacturing processes,
+                            in-house machining and key supplier partnerships
+                            allw us to accelerate rapid turnarounds and meet
+                            even the most aggressive schedules while ensuring
+                            quality results.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="five" class="boxLeft">
+                    <div class="aboutText">
+                        <p class="aboutTitle">In-House Testing</p>
+                        <p>
+                            Rocker can complete all required testing including
+                            proof pressure, flow rate, pressure drop, force,
+                            themral, envrionmental, response time, life cycle,
+                            and electrical testing.
+                        </p>
+                    </div>
+                </div>
+                <div id="six" class="boxRight">
+                    <img src="images/engine.jpeg" alt="" />
+                </div>
+
+                <div id="seven" class="boxLeft">
+                    <img src="images/lockheed.jpg" alt="" />
+                </div>
+                <div id="eight" class="boxRight">
+                    <div class="aboutText">
+                        <p class="aboutTitle">Leaders' Supplier of Choice</p>
+                        <p>
+                            Leading aerospace, commerical and defense
+                            organizations - including Airbus, Boeing, Lockheed
+                            Martin, Northrup Grumman, and Raytheon - rely on
+                            Rocker industries as their supplier of choice to
+                            provide quality solenoid and solenoid valves at a
+                            competitive price.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="nine" class="boxLeft">
+                    <div class="aboutText">
+                        <p class="aboutTitle">Engineering Excellence</p>
+                        <p>
+                            Rocker’s experienced engineers employ
+                            state-of-the-art SolidWorks CAD, and FEA with 2D and
+                            3D static and motion solvers.
+                        </p>
+                    </div>
+                </div>
+                <div id="ten" class="boxRight">
+                    <img src="images/engineer.jpeg" alt="" />
+                </div>
+            </div>
+
+            <div class="footer-basic">
+                <footer>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="home.html">Home</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a
+                                href="http://www.rockerindustries.com/Downloads/TCs_Rev_1_UPDATED_1.17.pdf"
+                                >Terms and Conditions</a
+                            >
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Quality</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Supplier Portal</a>
+                        </li>
+                    </ul>
+                    <p class="copyright">Rocker Industries © 2022</p>
+                </footer>
+            </div>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
