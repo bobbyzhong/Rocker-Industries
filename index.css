@@ -256,10 +256,14 @@ h2 {
     height: 70%;
     align-content: center;
 }
+.carousel-item {
+    object-fit: fill;
+}
 
 .carousel-item img {
     width: auto;
     height: 700px;
+    object-fit: contain;
 }
 
 .footer-basic {
